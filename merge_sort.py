@@ -88,7 +88,7 @@ def verify_sorted(list):
 
 
 
-alist = [54,26,93,17,77,31,44,55,20]
+alist = [54,26,93,17,77,31,44,55,20,34]
 l = merge_sort(alist)
 print(verify_sorted(alist))
 print(verify_sorted(l))
