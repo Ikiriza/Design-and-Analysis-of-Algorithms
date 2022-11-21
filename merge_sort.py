@@ -76,7 +76,6 @@ def merge(left, right):
 
 
 
-
 def verify_sorted(list):
     n = len(list)
 
