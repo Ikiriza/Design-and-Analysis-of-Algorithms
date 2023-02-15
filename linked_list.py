@@ -195,7 +195,6 @@ class LinkedList:
 # >>> l.add(3)
 # >>> l.size()
 # 3
-# >>> 
 
 # >>> l=LinkedList()
 # >>> l.add(1)
