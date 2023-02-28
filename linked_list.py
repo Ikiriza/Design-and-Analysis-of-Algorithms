@@ -37,6 +37,7 @@ class LinkedList:
     Singly linked list 
     """
 
+
     def __init__(self):
         self.head = None
 
