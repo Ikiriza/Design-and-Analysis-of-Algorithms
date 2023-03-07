@@ -25,7 +25,6 @@ def split(linked_list):
     Divide the unsorted list at midpoint into sublists
     takes O(k log n) time
     """
-
     if linked_list == None or linked_list.head == None:
         left_half = linked_list
         right_half = None 
