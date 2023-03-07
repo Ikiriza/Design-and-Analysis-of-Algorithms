@@ -27,9 +27,6 @@ def merge_sort(list):
 
     return merge(left, right)
 
-
-
-
 def split(list):
     """
     Divides the unsorted list at midpoint into sublists
@@ -85,9 +82,7 @@ def verify_sorted(list):
     return list[0] < list[1] and verify_sorted(list[1:])
 
 
-
-
-alist = [54,26,94,17,77,41,44,54,20,34]
-l = merge_sort(alist)
-print(verify_sorted(alist))
+a_list = [54,26,94,17,77,41,44,54,20,34]
+l = merge_sort(a_list)
+print(verify_sorted(a_list))
 print(verify_sorted(l))
