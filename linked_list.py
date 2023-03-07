@@ -167,10 +167,9 @@ class LinkedList:
             else:
                 nodes.append("[%s]" % current.data)
 
+                
             current = current.next_node
         return '-> '.join(nodes)
-
-
 
 
 # python3 -i linked_list.py 
