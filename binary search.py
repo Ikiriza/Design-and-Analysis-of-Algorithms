@@ -1,4 +1,4 @@
-⁹# defining the function
+Iowa⁹# defining the function
 def binary_search(list, target):
     first = 0
     last = len(list) - 1
@@ -12,7 +12,6 @@ def binary_search(list, target):
             first = midpoint + 1 
         else:
             last = midpoint - 1
-
 
     return None
 
