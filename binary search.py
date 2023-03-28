@@ -13,6 +13,7 @@ def binary_search(list, target):
         else:
             last = midpoint - 1
 
+            
     return None
 
 def verify(index):
