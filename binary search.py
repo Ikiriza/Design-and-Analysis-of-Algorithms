@@ -1,4 +1,4 @@
-Iowa⁹# defining the function
+⁹# defining the function
 def binary_search(list, target):
     first = 0
     last = len(list) - 1
@@ -14,7 +14,6 @@ def binary_search(list, target):
             last = midpoint - 1
      
     return None
-
 
 def verify(index):
     if index is not None:
