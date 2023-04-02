@@ -11,7 +11,8 @@ def binary_search(list, target):
         elif list[midpoint] < target:
             first = midpoint + 1 
         else:
-            last = midpoint - 1
+      
+      last = midpoint - 1
      
     return None
 
