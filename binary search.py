@@ -10,9 +10,7 @@ def binary_search(list, target):
             return midpoint
         elif list[midpoint] < target:
             first = midpoint + 1 
-        else:
-
-            
+        else:            
       last = midpoint - 1
 
     return None
