@@ -3,7 +3,6 @@ def binary_search(list, target):
     first = 0
     last = len(list) - 1
 
-    
     while first <= last:
         midpoint = (first + last) // 2
 
@@ -14,6 +13,7 @@ def binary_search(list, target):
         else:            
       last = midpoint - 1
     return None
+
 
 def verify(index):
     
