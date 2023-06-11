@@ -14,6 +14,8 @@ def binary_search(list, target):
       last = midpoint - 1
     return None
 
+
+
 def verify(index):
     
     if index is not None:
